@@ -1,0 +1,77 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading styles */
+  #heading {
+    color: #00698f;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: grey;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: blue;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: black;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer img {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+  }
+  
